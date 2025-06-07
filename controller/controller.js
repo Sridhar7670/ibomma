@@ -1,4 +1,3 @@
-const movieModel = require("../model/model");
 const bcrypt=require('bcrypt');
 const jwt=require('jsonwebtoken');
 const { user_model } = require("../model/usermodel");
