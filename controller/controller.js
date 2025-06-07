@@ -1,6 +1,7 @@
 const bcrypt=require('bcrypt');
 const jwt=require('jsonwebtoken');
 const { user_model } = require("../model/usermodel");
+const movieModel = require('../model/model');
 
 let searchmovie = async (req, res) => {
     try {
